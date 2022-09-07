@@ -1,0 +1,62 @@
+<testsuites id="" name="" tests="15" failures="0" skipped="0" errors="0" time="10.432648999989032">
+<testsuite name="buyItem.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.322" errors="0">
+<testcase name="buy an item" classname="[chromium] › buyItem.spec.ts:3:1 › buy an item" time="1.322">
+</testcase>
+</testsuite>
+<testsuite name="failLogin.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="0.837" errors="0">
+<testcase name="Fail to login" classname="[chromium] › failLogin.spec.ts:3:1 › Fail to login" time="0.837">
+</testcase>
+</testsuite>
+<testsuite name="getItemToCart.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.182" errors="0">
+<testcase name="add second item to cart" classname="[chromium] › getItemToCart.spec.ts:3:1 › add second item to cart" time="1.182">
+</testcase>
+</testsuite>
+<testsuite name="homepage.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="0.543" errors="0">
+<testcase name="visit swag labs website" classname="[chromium] › homepage.spec.ts:3:1 › visit swag labs website" time="0.543">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.144" errors="0">
+<testcase name="Login into swag labs website" classname="[chromium] › login.spec.ts:3:1 › Login into swag labs website" time="1.144">
+</testcase>
+</testsuite>
+<testsuite name="buyItem.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="2.433" errors="0">
+<testcase name="buy an item" classname="[firefox] › buyItem.spec.ts:3:1 › buy an item" time="2.433">
+</testcase>
+</testsuite>
+<testsuite name="failLogin.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="2.03" errors="0">
+<testcase name="Fail to login" classname="[firefox] › failLogin.spec.ts:3:1 › Fail to login" time="2.03">
+</testcase>
+</testsuite>
+<testsuite name="getItemToCart.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="2.459" errors="0">
+<testcase name="add second item to cart" classname="[firefox] › getItemToCart.spec.ts:3:1 › add second item to cart" time="2.459">
+</testcase>
+</testsuite>
+<testsuite name="homepage.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.744" errors="0">
+<testcase name="visit swag labs website" classname="[firefox] › homepage.spec.ts:3:1 › visit swag labs website" time="1.744">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="2.304" errors="0">
+<testcase name="Login into swag labs website" classname="[firefox] › login.spec.ts:3:1 › Login into swag labs website" time="2.304">
+</testcase>
+</testsuite>
+<testsuite name="buyItem.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="4.363" errors="0">
+<testcase name="buy an item" classname="[webkit] › buyItem.spec.ts:3:1 › buy an item" time="4.363">
+</testcase>
+</testsuite>
+<testsuite name="failLogin.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.284" errors="0">
+<testcase name="Fail to login" classname="[webkit] › failLogin.spec.ts:3:1 › Fail to login" time="1.284">
+</testcase>
+</testsuite>
+<testsuite name="getItemToCart.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.801" errors="0">
+<testcase name="add second item to cart" classname="[webkit] › getItemToCart.spec.ts:3:1 › add second item to cart" time="1.801">
+</testcase>
+</testsuite>
+<testsuite name="homepage.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="0.699" errors="0">
+<testcase name="visit swag labs website" classname="[webkit] › homepage.spec.ts:3:1 › visit swag labs website" time="0.699">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="1662577612672" hostname="" tests="1" failures="0" skipped="0" time="1.528" errors="0">
+<testcase name="Login into swag labs website" classname="[webkit] › login.spec.ts:3:1 › Login into swag labs website" time="1.528">
+</testcase>
+</testsuite>
+</testsuites>
