@@ -1,11 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
 
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-// require('dotenv').config();
+const BASE_URL='https://www.saucedemo.com/'
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -30,11 +26,14 @@ const config: PlaywrightTestConfig = {
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [['junit', { outputFile: 'test-reports/TEST-e2e.xml' }], ['list'], ['html']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
+    // This will save screenshots and video of tests if any of them fail
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 
@@ -48,6 +47,7 @@ const config: PlaywrightTestConfig = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
+        baseURL: BASE_URL,
       },
     },
 
@@ -55,6 +55,7 @@ const config: PlaywrightTestConfig = {
       name: 'firefox',
       use: {
         ...devices['Desktop Firefox'],
+        baseURL: BASE_URL,
       },
     },
 
@@ -62,6 +63,7 @@ const config: PlaywrightTestConfig = {
       name: 'webkit',
       use: {
         ...devices['Desktop Safari'],
+        baseURL: BASE_URL,
       },
     },
 
