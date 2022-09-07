@@ -1,5 +1,6 @@
 node_modules/
 /test-results/
+/test-reports/
 /tests-examples/
 /tests/example.spec.ts
 /playwright-report/
