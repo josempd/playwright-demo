@@ -23,9 +23,3 @@ jobs:
         name: playwright-report
         path: test-reports/
         retention-days: 30
-    - name: Publish Frontend Test Results
-      uses: EnricoMi/publish-unit-test-result-action@v1.23
-      if: always()
-      with:
-        check_name: frontend-tests
-        files: test-reports/TEST-*.xml
